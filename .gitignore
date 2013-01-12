@@ -3,7 +3,6 @@
 #############
 
 *.pydevproject
-.project
 .metadata
 bin/
 tmp/
@@ -23,7 +22,6 @@ local.properties
 *.launch
 
 # CDT-specific
-.cproject
 
 # PDT-specific
 .buildpath
@@ -36,9 +34,9 @@ local.properties
 *.[oa]
 
 # Ignore any project files
-.cproject
+
 .wrmakefile
-.wrproject
+
 
 # Ignore any output files
 PPC603gnu/
