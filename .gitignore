@@ -3,7 +3,6 @@
 #############
 
 *.pydevproject
-.project
 .metadata
 bin/
 tmp/
@@ -23,10 +22,11 @@ local.properties
 *.launch
 
 # CDT-specific
-.cproject
 
 # PDT-specific
 .buildpath
+.cproject
+.project
 
 ###############
 ## WindRiver ##
@@ -36,7 +36,6 @@ local.properties
 *.[oa]
 
 # Ignore any project files
-.cproject
 .wrmakefile
 .wrproject
 
@@ -52,3 +51,9 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
+
+################
+## Text files ##
+################
+
+sample.txt
