@@ -15,7 +15,9 @@ public:
 	ourRobot(void):
 		//The values passed to RobotDrive correspond to the motor controllers.
 		//This is why MecanumDrive wasn't working; only controllers 1 and 2 were passed. -Chris
-		ourRobotDrive(3,2,1,4),	//these must be initialized in the same order
+		ourRobotDrive(1,2,3,4),	//these must be initialized in the same order
+		SetInvertedMotor(kFrontLeftMotor, true); //Invert motor direction. May need to be changed
+		SetInvertedMotor(kBackLeftMotor, true);
 		ourJoystick(1)
 		// as they are declared above.
 		{
