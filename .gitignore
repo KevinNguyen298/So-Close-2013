@@ -52,6 +52,13 @@ Thumbs.db
 # Folder config file
 Desktop.ini
 
+###############
+## Mac Stuff ##
+###############
+
+# I don't even know
+.DS_Store
+
 ################
 ## Text files ##
 ################
