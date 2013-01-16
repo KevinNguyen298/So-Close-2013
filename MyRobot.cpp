@@ -38,8 +38,11 @@ public:
 		myRobot.SetSafetyEnabled(true);
 		while (IsOperatorControl())
 		{
-			myRobot.ArcadeDrive(stick); // drive with arcade style (use right stick)
-			Wait(0.005);				// wait for a motor update time
+			myRobot.mecanumdrive_cartesian
+			(float x
+			float y
+			float rotation);     // drive with mecanum  
+		Wait(0.005);				// wait for a motor update time
 		}
 	}
 	
